@@ -11,7 +11,11 @@
 
 %% TODO
 {admins, [
+<<<<<<< HEAD
    "admin@server.tld"
+=======
+   "nagisa@loveless.im"
+>>>>>>> 99a8decac6028567c9c714d8bacad7f8c7416c5a
 ]}.
 
 {servers, [
@@ -23,21 +27,44 @@
   [
    {id, main},
    {server, srv_server_tld},
+<<<<<<< HEAD
    {jid, "holie@server.tld"},
    {password, "password"},
    {status_text, "status"},
    {resource, "RESOURCE"}, % optional, value may be "random"
+=======
+   {jid, "youji@server.tld"},
+   {password, "password"},
+   {status_text, "Bla-bla-bla"},
+   {resource, "SOME-RESOURCE"}, % optional, value may be "random"
+>>>>>>> 99a8decac6028567c9c714d8bacad7f8c7416c5a
    {modules, [test]}
   ]
 ,
   [
    {id, second},
    {server, srv_server_tld},
+<<<<<<< HEAD
    {jid, "second@server.tld"},
    {password, "password"},
    {resource, "RESOURCE"},
    {mute, true} 
   ]
+=======
+   {jid, "zero@server.tld"},
+   {password, "password"},
+   {resource, "blah-blah"},
+   {mute, true} 
+  ]
+%,
+%  [
+%   {jid, "bad@bad.bad"},
+%   {id, bad"},
+%   {password, "password"},
+%   {server, srv_bad}
+%   {resource, random}
+%  ]
+>>>>>>> 99a8decac6028567c9c714d8bacad7f8c7416c5a
 ]}.
 
 {rooms, [
@@ -45,14 +72,22 @@
     [
         [
             {jid, "users@conference.some.srv"}, 
+<<<<<<< HEAD
             {nick, "Holie 0.1"}, 
+=======
+            {nick, "Youji Sagan 0.1"}, 
+>>>>>>> 99a8decac6028567c9c714d8bacad7f8c7416c5a
             {modules, []},
             {mute, true}
         ]
        ,
         [
             {jid, "protected@conference.another.srv"}, 
+<<<<<<< HEAD
             {nick, "Holie 0.1"}, 
+=======
+            {nick, "Youji Sagan 0.1"}, 
+>>>>>>> 99a8decac6028567c9c714d8bacad7f8c7416c5a
             {password, "password"}
         ]
     ]
@@ -60,8 +95,13 @@
 ,
   {second,
     [
+<<<<<<< HEAD
         [{jid, "users@conference.third.srv"}, {nick, "Holie 0.1"}], 
         [{jid, "protected@conference.acme.inc"}, {nick, "Holie 0.1"}, {password, "password"}]
+=======
+        [{jid, "users@conference.third.srv"}, {nick, "Youji Sagan 0.1"}], 
+        [{jid, "protected@conference.acme.inc"}, {nick, "Youji Sagan 0.1"}, {password, "password"}]
+>>>>>>> 99a8decac6028567c9c714d8bacad7f8c7416c5a
     ]
   }
 ]}.
