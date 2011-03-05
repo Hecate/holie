@@ -37,7 +37,7 @@
 %% 12) JID registration and storing registration data
 %% ------------------------------------------------------
 
--module(youji).
+-module(holie).
 
 -export([start/0, stop/1]).
 -export([xmpp_supervisor/0, start_worker/3]).

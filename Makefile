@@ -9,8 +9,6 @@ compile:
 	mkdir -p ebin/
 	erl -pa ebin -make
 
-debug: all
+debug: 	all
 	cd ebin
-	@echo ""
-	@echo ""
 	erl -noshell -pa ebin -s holie start
